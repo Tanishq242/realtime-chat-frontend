@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+    background: url("../assets/bg.jpg") center center/cover no-repeat fixed;
+}
+
+/* Glass Card */
+
+.login-container {
+
+    width: 380px;
+    padding: 40px;
+
+    border-radius: 22px;
+
+    background: rgb(0 0 0 / 18%);
+
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+
+    border: 1px solid rgba(255, 255, 255, .25);
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .25);
+
+    text-align: center;
+}
+
+/* Logo */
+
+.logo {
+
+    width: 90px;
+    height: 90px;
+
+    margin: 0 auto 25px;
+
+    border-radius: 50%;
+
+    background: rgba(255, 255, 255, .2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 42px;
+
+    color: white;
+}
+
+/* Heading */
+
+.login-container h2 {
+
+    margin: 0;
+
+    color: white;
+
+    font-size: 34px;
+
+    font-weight: 700;
+
+}
+
+.subtitle {
+
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    color: rgba(255, 255, 255, .85);
+
+    font-size: 16px;
+}
+
+/* Label */
+
+label {
+
+    display: block;
+
+    text-align: left;
+
+    margin-bottom: 8px;
+
+    color: white;
+
+    font-weight: 600;
+
+}
+
+/* Input */
+
+#username {
+
+    width: 100%;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    border: 1px solid rgba(255, 255, 255, .2);
+
+    background: rgba(255, 255, 255, .15);
+
+    color: white;
+
+    outline: none;
+
+    box-sizing: border-box;
+
+    font-size: 16px;
+
+}
+
+#username::placeholder {
+
+    color: rgba(255, 255, 255, .75);
+
+}
+
+#username:focus {
+
+    border-color: #8b5cf6;
+
+}
+
+/* Button */
+
+.login-button {
+
+    width: 100%;
+
+    margin-top: 25px;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: #4f46e5;
+
+    color: white;
+
+    font-size: 17px;
+
+    cursor: pointer;
+
+    transition: .25s;
+}
+
+.login-button:hover {
+
+    background: #3730a3;
+
+}
+
+/* Error */
+
+.error {
+
+    color: #ffd6d6;
+
+    text-align: left;
+
+    margin-bottom: 15px;
+
+    font-size: 14px;
+
+}
+
+/* Footer */
+
+.footer {
+
+    margin-top: 25px;
+
+    color: rgba(255, 255, 255, .75);
+
+    font-size: 14px;
+
+}
